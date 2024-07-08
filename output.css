@@ -1169,20 +1169,20 @@ body {
   }
 }
 
+.lightlogo2-btn {
+  display: block;
+}
+
+.darklogo2-btn {
+  display: none;
+}
+
 .lightlogo-btn {
   display: none;
 }
 
 .darklogo-btn {
   display: block;
-}
-
-.lightlogo1-btn {
-  display: block;
-}
-
-.darklogo1-btn {
-  display: none;
 }
 
 .placeholder\:text-xs::-moz-placeholder {
@@ -1193,24 +1193,6 @@ body {
 .placeholder\:text-xs::placeholder {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.placeholder\:text-sm::-moz-placeholder {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-}
-
-.placeholder\:text-sm::placeholder {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-}
-
-.placeholder\:font-medium::-moz-placeholder {
-  font-weight: 500;
-}
-
-.placeholder\:font-medium::placeholder {
-  font-weight: 500;
 }
 
 .placeholder\:font-semibold::-moz-placeholder {
@@ -1386,6 +1368,10 @@ body {
 
   .sm\:mt-\[195px\] {
     margin-top: 195px;
+  }
+
+  .sm\:block {
+    display: block;
   }
 
   .sm\:flex {
@@ -1660,6 +1646,10 @@ body {
     margin-top: 295px;
   }
 
+  .lg\:block {
+    display: block;
+  }
+
   .lg\:flex {
     display: flex;
   }
@@ -1697,6 +1687,10 @@ body {
 
   .xl\:mt-\[388px\] {
     margin-top: 388px;
+  }
+
+  .xl\:block {
+    display: block;
   }
 
   .xl\:w-10 {
@@ -1749,6 +1743,10 @@ body {
     margin-top: 450px;
   }
 
+  .\31xl\:block {
+    display: block;
+  }
+
   .\31xl\:w-40 {
     width: 10rem;
   }
@@ -1788,6 +1786,10 @@ body {
 
   .\32xl\:mt-\[310px\] {
     margin-top: 310px;
+  }
+
+  .\32xl\:block {
+    display: block;
   }
 
   .\32xl\:flex {

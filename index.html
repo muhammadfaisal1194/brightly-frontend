@@ -16,7 +16,18 @@
     >
       <!-- header -->
       <div class="flex justify-between items-center 2xl:w-[35%]">
-        <div id="logo" class="hidden">
+        <div id="logo" class="hidden sm:hidden">
+          <a href="/" class="">
+            <img
+              src="./images/Frame 1000007135.svg"
+              alt=""
+              class="cursor-pointer"
+          /></a>
+        </div>
+
+        <div
+          class="hidden sm:block md:block lg:block xl:block 1xl:block 2xl:block"
+        >
           <a href="/" class="">
             <img
               src="./images/Frame 1000007135.svg"
@@ -419,7 +430,7 @@
           }),
         };
 
-        fetch("http://localhost:8080/subscribe", options)
+        fetch("https://backend.brightly.team/subscribe", options)
           .then((response) => response.json())
           .then((response) => {
             console.log("rsonse", response);
@@ -443,7 +454,6 @@
         Toastify({
           text: message,
           duration: 3000, // Duration in milliseconds
-          // close: true, // Show close button
           gravity: "top", // Position: 'top' or 'bottom'
           position: "center", // Position: 'left', 'center' or 'right'
           color: "white",

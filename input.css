@@ -262,18 +262,16 @@ body {
     display: block;
   }
 }
-.lightlogo-btn {
-  display: none;
-  @media (min-width: 576px) {
-    display: block;
-  }
-}
-.darklogo-btn {
-  display: block;
-}
 .lightlogo2-btn {
   display: block;
 }
 .darklogo2-btn {
   display: none;
+}
+
+.lightlogo-btn {
+  display: none;
+}
+.darklogo-btn {
+  display: block;
 }
