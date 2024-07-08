@@ -1,0 +1,279 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root,
+:root.light {
+  --color-bg: #ffffff;
+  --color-fg: #000000;
+  --card-bg-color: #fafafa;
+}
+:root.dark {
+  --color-bg: #171819;
+  --color-fg: #ffffff;
+  --card-bg-color: #607d8b;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-fg);
+}
+.card {
+  background-color: var(--card-bg-color) !important;
+}
+@font-face {
+  font-family: "Thunder";
+  src: url("./Thunder-ExtraBoldLC.ttf");
+}
+@font-face {
+  font-family: "ClashGrotesk";
+  src: url("./ClashGrotesk-Regular.ttf");
+}
+@font-face {
+  font-family: "LightLC";
+  src: url("./Thunder-LightLC.ttf");
+}
+.main-text {
+  font-family: "Thunder";
+}
+.main-text2 {
+  font-family: "LightLC";
+}
+.texttop,
+.text1,
+.text2,
+.text3,
+.textbottom {
+  font-family: "ClashGrotesk";
+}
+.textcol {
+  font-family: "ClashGrotesk";
+}
+.switch {
+  font-size: 17px;
+  position: relative;
+  display: inline-block;
+  width: 64px;
+  height: 35px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: transparent;
+  background-color: #fff;
+  border: 1px solid rgb(230, 230, 230);
+  transition: 0.4s;
+  border-radius: 30px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 30px;
+  width: 30px;
+  border-radius: 20px;
+  left: 1px;
+  bottom: 2px;
+  z-index: 0;
+  background-color: #ffd405;
+  transition: 0.4s;
+}
+
+.sun svg {
+  position: absolute;
+  padding: 1px;
+  top: 5px;
+  left: 5px;
+  z-index: 1;
+  width: 24px;
+  height: 24px;
+}
+
+.moon svg {
+  fill: #5f5f5f;
+  position: absolute;
+  padding: 1px;
+  top: 6px;
+  left: 36px;
+  z-index: 1;
+  width: 24px;
+  height: 24px;
+}
+
+/* .switch:hover */
+.sun svg {
+  animation: rotate 15s linear infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* .switch:hover */
+.moon svg {
+  animation: tilt 5s linear infinite;
+}
+
+@keyframes tilt {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(-10deg);
+  }
+
+  75% {
+    transform: rotate(10deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.input:checked + .slider {
+  background-color: #5f5f5f;
+}
+
+.input:focus + .slider {
+  box-shadow: 0 0 1px #183153;
+}
+
+.input:checked + .slider:before {
+  transform: translateX(30px);
+  background-color: #d1f26a;
+}
+
+.light-btn {
+  background-color: #d1f26a;
+}
+.dark-btn {
+  background-color: #ffd405;
+}
+.lightsvg-btn {
+  fill: #4d6503;
+}
+.darksvg-btn {
+  fill: #ffff;
+}
+.lightflower-btn {
+  fill: #ffd405;
+}
+.darkflower-btn {
+  fill: #d1f26a;
+  color: #545454;
+}
+.lighttextcolor-btn {
+  color: #4d6503;
+}
+.darktextcolor-btn {
+  color: #ffff;
+}
+.lighttextcol-btn {
+  color: #d1f26a;
+}
+.darktextcol-btn {
+  color: #545454;
+}
+.lighttextcol1-btn {
+  color: #d1f26a;
+}
+.darktextcol1-btn {
+  color: #545454;
+}
+.lightboxshadow-btn {
+  box-shadow: 0px 0px 45px -15px #ccc;
+}
+.darkboxshadow-btn {
+  box-shadow: 20px 15px 70px -16px #ffff;
+  @media (min-width: 576px) {
+    box-shadow: 0px 0px 26px -15px #313131;
+  }
+}
+.lightsvg1-btn {
+  fill: #5f5f5f;
+}
+.darksvg1-btn {
+  fill: #ffff;
+}
+.lighttextcol2-btn {
+  color: #000;
+}
+.darktextcol2-btn {
+  color: #ffff;
+  @media (min-width: 576px) {
+    color: #c5c5c5;
+  }
+}
+.lighttextcol3-btn {
+  color: #000;
+}
+.darktextcol3-btn {
+  color: #ffff;
+  @media (min-width: 576px) {
+    color: #c5c5c5;
+  }
+}
+
+.lighttextcol4-btn {
+  display: block;
+}
+.darktextcol4-btn {
+  display: none;
+}
+.lightsvg2-btn {
+  display: none;
+}
+.darksvg2-btn {
+  display: block;
+}
+
+.lightsvg3-btn {
+  @media (min-width: 576px) {
+    display: block;
+  }
+}
+.darksvg3-btn {
+  display: none;
+}
+.lightsvg4-btn {
+  display: none;
+}
+.darksvg4-btn {
+  @media (min-width: 576px) {
+    display: block;
+  }
+}
+.lightlogo-btn {
+  display: none;
+  @media (min-width: 576px) {
+    display: block;
+  }
+}
+.darklogo-btn {
+  display: block;
+}
+.lightlogo2-btn {
+  display: block;
+}
+.darklogo2-btn {
+  display: none;
+}
