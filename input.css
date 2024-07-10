@@ -247,7 +247,7 @@ body {
 }
 
 .lightsvg3-btn {
-  @media (min-width: 576px) {
+  @media (min-width: 640px) {
     display: block;
   }
 }
@@ -258,7 +258,7 @@ body {
   display: none;
 }
 .darksvg4-btn {
-  @media (min-width: 576px) {
+  @media (min-width: 640px) {
     display: block;
   }
 }
