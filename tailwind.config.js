@@ -8,6 +8,7 @@ module.exports = {
         ss: "375px",
         xs: "425px",
         "1xl": "1440px",
+        "3xl": "2560px",
       },
     },
   },

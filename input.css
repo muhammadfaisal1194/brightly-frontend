@@ -122,6 +122,7 @@ body {
   fill: #5f5f5f;
   position: absolute;
   padding: 1px;
+  border-radius: 100%;
   top: 6px;
   left: 36px;
   z-index: 1;
@@ -251,12 +252,12 @@ body {
   }
 }
 
-/* .lighttextcol4-btn {
+.lighttextcol4-btn {
   display: block;
 }
 .darktextcol4-btn {
   display: none;
-} */
+}
 .lightsvg2-btn {
   display: none;
 }

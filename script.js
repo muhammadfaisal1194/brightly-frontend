@@ -11,10 +11,10 @@ modeBtn.onchange = (e) => {
     element.classList.add("dark-btn");
     element.classList.remove("light-btn");
     // svg-btn;
-    // const element1 = document.getElementById("svg-btn");
-    // element1.classList.add("darksvg-btn");
-    // element1.classList.remove("lightsvg-btn");
-    // flower-btn;
+    const element1 = document.getElementById("svg-btn");
+    element1.classList.add("darksvg-btn");
+    element1.classList.remove("lightsvg-btn");
+    // flower - btn;
     const element2 = document.getElementById("flower");
     element2.classList.add("darkflower-btn");
     element2.classList.remove("lightflower-btn");
@@ -43,17 +43,17 @@ modeBtn.onchange = (e) => {
     element8.classList.add("darktextcol3-btn");
     element8.classList.remove("lighttextcol3-btn");
     // text-col4;
-    // const element9 = document.getElementById("textcol4");
-    // element9.classList.add("darktextcol4-btn");
-    // element9.classList.remove("lighttextcol4-btn");
+    const element9 = document.getElementById("textcol4");
+    element9.classList.add("darktextcol4-btn");
+    element9.classList.remove("lighttextcol4-btn");
     // svg1-btn;
     const element10 = document.getElementById("svg1btn");
     element10.classList.add("darksvg1-btn");
     element10.classList.remove("lightsvg1-btn");
     // svg2-btn;
-    // const element11 = document.getElementById("svg2btn");
-    // element11.classList.add("darksvg2-btn");
-    // element11.classList.remove("lightsvg2-btn");
+    const element11 = document.getElementById("svg2btn");
+    element11.classList.add("darksvg2-btn");
+    element11.classList.remove("lightsvg2-btn");
     // svg3-btn;
     const element12 = document.getElementById("svg3btn");
     element12.classList.add("darksvg3-btn");
@@ -63,16 +63,16 @@ modeBtn.onchange = (e) => {
     element13.classList.add("darksvg4-btn");
     element13.classList.remove("lightsvg4-btn");
     // logo-btn;
-    const element14 = document.getElementById("logo");
-    element14.classList.add("darklogo-btn");
-    element14.classList.remove("lightlogo-btn");
-    console.log(element14);
+    // const element14 = document.getElementById("logo");
+    // element14.classList.add("darklogo-btn");
+    // element14.classList.remove("lightlogo-btn");
+    // console.log(element14);
 
     // logo2-btn;
-    const element16 = document.getElementById("logo2");
-    element16.classList.add("darklogo2-btn");
-    element16.classList.remove("lightlogo2-btn");
-    console.log(element16);
+    // const element16 = document.getElementById("logo2");
+    // element16.classList.add("darklogo2-btn");
+    // element16.classList.remove("lightlogo2-btn");
+    // console.log(element16);
   } else {
     document.documentElement.classList.remove("dark");
     document.documentElement.classList.add("light");
@@ -85,9 +85,9 @@ modeBtn.onchange = (e) => {
     element.classList.remove("dark-btn");
     // svg-btn;
 
-    // const element1 = document.getElementById("svg-btn");
-    // element1.classList.add("lightsvg-btn");
-    // element1.classList.remove("darksvg-btn");
+    const element1 = document.getElementById("svg-btn");
+    element1.classList.add("lightsvg-btn");
+    element1.classList.remove("darksvg-btn");
     // flower-btn;
 
     const element2 = document.getElementById("flower");
@@ -148,16 +148,16 @@ modeBtn.onchange = (e) => {
     element13.classList.add("lightsvg4-btn");
     element13.classList.remove("darksvg4-btn");
     // logo-btn;
-    const element14 = document.getElementById("logo");
-    element14.classList.add("lightlogo-btn");
-    element14.classList.remove("darklogo-btn");
-    console.log(element14);
+    // const element14 = document.getElementById("logo");
+    // element14.classList.add("lightlogo-btn");
+    // element14.classList.remove("darklogo-btn");
+    // console.log(element14);
 
     // logo2-btn;
-    const element16 = document.getElementById("logo2");
-    element16.classList.add("lightlogo2-btn");
-    element16.classList.remove("darklogo2-btn");
-    console.log(element16);
+    // const element16 = document.getElementById("logo2");
+    // element16.classList.add("lightlogo2-btn");
+    // element16.classList.remove("darklogo2-btn");
+    // console.log(element16);
   }
 };
 
@@ -172,9 +172,9 @@ if (mode == "dark") {
   element.classList.add("dark-btn");
   element.classList.remove("light-btn");
   // svg-btn;
-  // const element1 = document.getElementById("svg-btn");
-  // element1.classList.add("darksvg-btn");
-  // element1.classList.remove("lightsvg-btn");
+  const element1 = document.getElementById("svg-btn");
+  element1.classList.add("darksvg-btn");
+  element1.classList.remove("lightsvg-btn");
   // flower-btn;
   const element2 = document.getElementById("flower");
   element2.classList.add("darkflower-btn");
@@ -224,15 +224,15 @@ if (mode == "dark") {
   element13.classList.add("darksvg4-btn");
   element13.classList.remove("lightsvg4-btn");
   // logo-btn;
-  const element14 = document.getElementById("logo");
-  element14.classList.add("darklogo-btn");
-  element14.classList.remove("lightlogo-btn");
-  console.log(element14);
+  // const element14 = document.getElementById("logo");
+  // element14.classList.add("darklogo-btn");
+  // element14.classList.remove("lightlogo-btn");
+  // console.log(element14);
 
   // logo2-btn;
-  const element16 = document.getElementById("logo2");
-  element16.classList.add("darklogo2-btn");
-  element16.classList.remove("lightlogo2-btn");
+  // const element16 = document.getElementById("logo2");
+  // element16.classList.add("darklogo2-btn");
+  // element16.classList.remove("lightlogo2-btn");
 }
 
 if (mode == "light") {
@@ -245,9 +245,9 @@ if (mode == "light") {
   element.classList.add("light-btn");
   element.classList.remove("dark-btn");
   // svg-btn;
-  // const element1 = document.getElementById("svg-btn");
-  // element1.classList.add("lightsvg-btn");
-  // element1.classList.remove("darksvg-btn");
+  const element1 = document.getElementById("svg-btn");
+  element1.classList.add("lightsvg-btn");
+  element1.classList.remove("darksvg-btn");
   // flower-btn;
   const element2 = document.getElementById("flower");
   element2.classList.add("lightflower-btn");
@@ -297,13 +297,13 @@ if (mode == "light") {
   element13.classList.add("lightsvg4-btn");
   element13.classList.remove("darksvg4-btn");
   // logo-btn;
-  const element14 = document.getElementById("logo");
-  element14.classList.add("lightlogo-btn");
-  element14.classList.remove("darklogo-btn");
-  console.log(element14);
+  // const element14 = document.getElementById("logo");
+  // element14.classList.add("lightlogo-btn");
+  // element14.classList.remove("darklogo-btn");
+  // console.log(element14);
   // logo2-btn;
-  const element16 = document.getElementById("logo2");
-  element16.classList.add("lightlogo2-btn");
-  element16.classList.remove("darklogo2-btn");
-  console.log(element14);
+  // const element16 = document.getElementById("logo2");
+  // element16.classList.add("lightlogo2-btn");
+  // element16.classList.remove("darklogo2-btn");
+  // console.log(element14);
 }
