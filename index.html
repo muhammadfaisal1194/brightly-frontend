@@ -16,7 +16,16 @@
     >
       <!-- header -->
       <div class="flex justify-between items-center 2xl:w-[35%]">
-        <div id="logo" class="hidden sm:hidden">
+        <!-- <div id="logo" class="hidden sm:hidden">
+          <a href="/" class="">
+            <img
+              src="./images/Frame 1000007135.svg"
+              alt=""
+              class="cursor-pointer"
+          /></a>
+        </div> -->
+        <!-- hidden sm:block md:block lg:block xl:block 1xl:block 2xl:block -->
+        <div class="">
           <a href="/" class="">
             <img
               src="./images/Frame 1000007135.svg"
@@ -25,25 +34,14 @@
           /></a>
         </div>
 
-        <div
-          class="hidden sm:block md:block lg:block xl:block 1xl:block 2xl:block"
-        >
-          <a href="/" class="">
-            <img
-              src="./images/Frame 1000007135.svg"
-              alt=""
-              class="cursor-pointer"
-          /></a>
-        </div>
-
-        <div id="logo2" class="sm:hidden">
+        <!-- <div id="logo2" class="sm:hidden">
           <a href="/" class="">
             <img
               src="./images/Frame 1000007136.svg"
               alt=""
               class="cursor-pointer"
           /></a>
-        </div>
+        </div> -->
 
         <!-- switch -->
         <label class="switch">
@@ -58,10 +56,17 @@
             </svg>
           </span>
           <span class="cursor-pointer moon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+            <svg
+              width="16"
+              height="17"
+              viewBox="0 0 16 17"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
               <path
-                d="m223.5 32c-123.5 0-223.5 100.3-223.5 224s100 224 223.5 224c60.6 0 115.5-24.2 155.8-63.4 5-4.9 6.3-12.5 3.1-18.7s-10.1-9.7-17-8.5c-9.8 1.7-19.8 2.6-30.1 2.6-96.9 0-175.5-78.8-175.5-176 0-65.8 36-123.1 89.3-153.3 6.1-3.5 9.2-10.5 7.7-17.3s-7.3-11.9-14.3-12.5c-6.3-.5-12.6-.8-19-.8z"
-              ></path>
+                d="M14.5869 10.8324C14.0087 12.4724 12.8258 13.8296 11.2802 14.6264C9.73456 15.4233 7.94296 15.5996 6.27164 15.1194C4.60033 14.6393 3.17556 13.5388 2.28866 12.043C1.40175 10.5473 1.11976 8.76923 1.50024 7.07245C1.76306 5.94727 2.30609 4.90681 3.07886 4.04779C3.85162 3.18877 4.82905 2.53909 5.92024 2.15911C6.13333 2.07964 6.36484 2.06343 6.58691 2.11245C6.80903 2.15457 7.01463 2.25855 7.18016 2.41243C7.34203 2.56709 7.4577 2.76373 7.51423 2.98037C7.57076 3.197 7.56596 3.42509 7.50023 3.63912C7.19483 4.54703 7.17616 5.52692 7.44683 6.44578C7.6413 7.12879 8.0065 7.75103 8.50803 8.25377C9.00963 8.7565 9.63103 9.1231 10.3136 9.3191C11.2299 9.5919 12.2083 9.57323 13.1135 9.26577C13.3314 9.2039 13.5623 9.2039 13.7802 9.26577C13.9968 9.32383 14.1928 9.44143 14.346 9.60523C14.4992 9.76897 14.6034 9.97243 14.6469 10.1924C14.6848 10.4073 14.6641 10.6284 14.5869 10.8324Z"
+                fill="#5F5F5F"
+              />
             </svg>
           </span>
           <input type="checkbox" id="mode" class="input" />
@@ -70,13 +75,13 @@
       </div>
 
       <!-- body -->
-      <div class="md:mt-24 mt-12">
+      <div class="md:mt-24 sm:mt-16 mt-4">
         <!-- 2nd header -->
         <div
           class="lg:flex lg:justify-between flex justify-between sm:items-center items-end"
         >
           <div
-            class="sm:flex grid md:gap-4 gap-4 w-[62%] sm:w-full md:items-center"
+            class="sm:flex grid md:gap-4 gap-4 w-[58%] sm:w-full md:items-center"
           >
             <svg
               width="43"
@@ -94,7 +99,7 @@
             </svg>
 
             <p
-              class="texttop md:w-full leading-4 ss:text-[12px] text-[11px] xs:text-[14px] lg:text-[15px] font-semibold text-start md:text-start"
+              class="texttop md:w-full leading-4 ss:text-[12px] text-[10px] xs:text-[14px] lg:text-[15px] text-start md:text-start"
               id="textcol2"
             >
               Build a strategic content ecosystem that’ll drive repeatable,
@@ -102,7 +107,7 @@
             </p>
           </div>
           <h1
-            class="main-text2 font-semibold leading-5 ss:text-[18px] text-[17px] sm:text-[15px] w-[29%] sm:max-w-fit lg:text-[23px] uppercase"
+            class="main-text2 font-semibold leading-5 ss:text-[18px] text-[15px] sm:text-[15px] w-[27%] sm:max-w-fit lg:text-[23px] uppercase"
           >
             a next-gen media company
           </h1>
@@ -110,40 +115,39 @@
 
         <!-- main body -->
         <div
-          class="relative flex justify-center ss:h-[470px] h-[400px] md:h-[270px] sm:h-[235px] sm:mt-[-40px] ss:mt-[-60px] mt-[-50px] xl:mt-[-95px] md:mt-[-40px] lg:mt-[-60px] 2xl:mt-[-70px] 1xl:mt-[-110px] items-start justify-items-start text-start"
+          class="relative flex justify-center ss:h-[470px] h-[395px] md:h-[270px] sm:h-[235px] sm:mt-[-40px] ss:mt-[-60px] mt-[-50px] xl:mt-[-95px] md:mt-[-55px] lg:mt-[-60px] 2xl:mt-[-85px] 1xl:mt-[-120px] items-start justify-items-start text-start"
         >
           <h1
-            class="main-text ss:text-[250px] font-normal ss:m-2 ml-1 md:mr-0 xs:mr-4 text-[210px] xs:text-[280px] sm:text-[218px] md:text-[250px] lg:text-[330px] 1xl:text-[490px] xl:text-[420px] 2xl:text-[350px] p-0"
+            class="main-text ss:text-[250px] vs:text-[225px] font-normal ss:m-2 ml-1 md:mr-0 xs:mr-4 text-[210px] xs:text-[280px] sm:text-[218px] md:text-[250px] lg:text-[330px] 1xl:text-[490px] xl:text-[420px] 2xl:text-[350px] p-0"
           >
-            <span class="flex flex-col sm:flex-row"
-              ><span class="ss:h-[184px] h-[155px] xs:h-[205px] sm:h-[160px]"
-                >BRIG</span
-              ><span class="h-[120px]">HTLY</span></span
+            <span
+              class="flex flex-col sm:flex-row gap-[155px] ss:gap-[183px] xs:gap-[205px] sm:gap-0 vs:gap-[164px]"
+              ><span class="h-0">BRIG</span><span class="h-0">HTLY</span></span
             >
           </h1>
 
           <div
-            class="absolute border flex justify-between w-[100%] xs:w-[95%] sm:w-fit xl:mt-[388px] lg:mt-[295px] md:mt-[210px] xs:mt-[455px] ss:mt-[410px] mt-[340px] sm:mt-[195px] 1xl:mt-[450px] 2xl:mt-[310px] z-10 xs:mr-5 mr-3 ss:w-[100%] sm:mr-0 items-center shadow-sm dark:shadow-md dark:shadow-white bg-white md:p-2 md:px-2 p-1 rounded-full"
+            class="absolute flex justify-between w-[100%] xs:w-[98%] sm:w-fit xl:mt-[392px] vs:mt-[360px] lg:mt-[305px] md:mt-[225px] xs:mt-[455px] ss:mt-[410px] mt-[340px] sm:mt-[195px] 1xl:mt-[465px] 2xl:mt-[325px] z-10 xs:mr-3 mr-1 ss:w-[100%] sm:mr-0 items-center shadow-sm dark:shadow-md dark:shadow-white bg-white md:p-2 md:px-2 p-1 rounded-full"
             id="boxshadow"
           >
             <input
               type="email"
-              class="text1 text-black md:p-2 md:text-base text-sm font-semibold 1xl:text-lg 1xl:w-[350px] md:w-[280px] px-4 sm:w-56 xs:w-[100%] ss:w-full w-full rounded-full outline-none border-none placeholder:text-[#AFAFAF] placeholder:font-semibold ss:placeholder:text-sm 1xl:placeholder:text-lg placeholder:text-xs md:placeholder:text-base"
+              class="text1 text-black md:p-2 md:text-base text-sm 1xl:text-lg 1xl:w-[350px] md:w-[280px] px-4 sm:w-56 xs:w-[100%] ss:w-full w-full rounded-full outline-none border-none placeholder:text-[#AFAFAF] ss:placeholder:text-sm 1xl:placeholder:text-lg placeholder:text-xs md:placeholder:text-base"
               placeholder="pop your email right here :)"
               id="email-input"
             />
             <button
               id="email-btn"
-              class="bg-[#D1F26A] flex rounded-full pl-2 ss:w-[180px] w-[155px] xs:w-[170px] sm:w-[110px] md:w-fit items-center gap-1 md:p-2 md:px-3 font-semibold text-base text-[#4D6503]"
+              class="bg-[#D1F26A] flex rounded-full py-[10px] pl-2 ss:w-[155px] w-[145px] xs:w-[145px] sm:w-[105px] md:w-fit items-center gap-1 md:px-3 font-semibold text-base text-[#4D6503]"
               onclick="subscribe()"
             >
               <p
                 class="textcol ss:text-sm text-xs md:text-base lg:text-base"
                 id="textcolor"
               >
-                Let’s Grow
+                Let’s Grow 🚀
               </p>
-              <svg
+              <!-- <svg
                 width="40"
                 height="40"
                 class="md:w-10 ss:w-8 w-6 sm:w-7"
@@ -195,16 +199,16 @@
                   stroke="#FFD405"
                   stroke-width="4.28571"
                 />
-              </svg>
+              </svg> -->
             </button>
           </div>
         </div>
 
         <div
-          class="flex flex-col gap-8 justify-center items-center md:mt-16 lg:mt-[150px] xl:mt-[240px] 1xl:mt-[320px] 2xl:mt-[190px] mt-8 xs:mt-28 sm:mt-20"
+          class="flex flex-col gap-8 justify-center items-center md:mt-16 lg:mt-[150px] vs:mt-8 xl:mt-[240px] 1xl:mt-[320px] 2xl:mt-[190px] mt-4 xs:mt-20 sm:mt-16"
         >
           <p
-            class="textbottom font-semibold ss:text-[13px] xs:text-[15px] text-[10px] sm:text-base text-center"
+            class="textbottom ss:text-[12px] xs:text-[14px] text-[10px] vs:text-[11px] sm:text-base text-center"
             id="textcol3"
           >
             Crafted by multi-x founders who’ve actually steered the ship.
@@ -402,12 +406,18 @@
           </div>
         </div>
         <div
-          class="flex justify-between items-center py-4 xs:py-8 sm:pb-8 md:py-4 mt-14 1xl:mt-20 lg:mt-20"
+          class="flex justify-between items-center py-4 xs:py-8 sm:pb-8 md:py-4 md:mt-10 mt-2 1xl:mt-14 lg:mt-14"
         >
-          <p class="text2 text-[#D1F26A] font-medium text-base" id="textcol">
+          <p
+            class="text2 text-[#D1F26A] sm:text-base text-xs ss:text-sm"
+            id="textcol"
+          >
             © 2024 Brightly LLC
           </p>
-          <p class="text3 text-[#D1F26A] font-medium text-base" id="textcol1">
+          <p
+            class="text3 text-[#D1F26A] sm:text-base text-xs ss:text-sm"
+            id="textcol1"
+          >
             All rights reserved
           </p>
         </div>
@@ -436,10 +446,7 @@
             console.log("rsonse", response);
             console.log("rsonse", response.success);
             if (!response.success) {
-              showToast(
-                "You have already subscribed using this email!",
-                "#FF0000"
-              );
+              showToast("You have successfully subscribed!", "#FFD405");
             } else {
               showToast("You have successfully subscribed!", "#FFD405");
             }
