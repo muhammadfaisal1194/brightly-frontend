@@ -125,9 +125,9 @@ modeBtn.onchange = (e) => {
     element8.classList.remove("darktextcol3-btn");
     // textcol4;
 
-    // const element9 = document.getElementById("textcol4");
-    // element9.classList.add("lighttextcol4-btn");
-    // element9.classList.remove("darktextcol4-btn");
+    const element9 = document.getElementById("textcol4");
+    element9.classList.add("lighttextcol4-btn");
+    element9.classList.remove("darktextcol4-btn");
     // svg1-btn;
 
     const element10 = document.getElementById("svg1btn");
@@ -135,9 +135,9 @@ modeBtn.onchange = (e) => {
     element10.classList.remove("darksvg1-btn");
     // svg2-btn;
 
-    // const element11 = document.getElementById("svg2btn");
-    // element11.classList.add("lightsvg2-btn");
-    // element11.classList.remove("darksvg2-btn");
+    const element11 = document.getElementById("svg2btn");
+    element11.classList.add("lightsvg2-btn");
+    element11.classList.remove("darksvg2-btn");
     // svg3-btn;
 
     const element12 = document.getElementById("svg3btn");
@@ -204,17 +204,17 @@ if (mode == "dark") {
   element8.classList.add("darktextcol3-btn");
   element8.classList.remove("lighttextcol3-btn");
   // textcol4;
-  // const element9 = document.getElementById("textcol4");
-  // element9.classList.add("darktextcol4-btn");
-  // element9.classList.remove("lighttextcol4-btn");
+  const element9 = document.getElementById("textcol4");
+  element9.classList.add("darktextcol4-btn");
+  element9.classList.remove("lighttextcol4-btn");
   // svg1-btn;
   const element10 = document.getElementById("svg1btn");
   element10.classList.add("darksvg1-btn");
   element10.classList.remove("lightsvg1-btn");
   // svg2-btn;
-  // const element11 = document.getElementById("svg2btn");
-  // element11.classList.add("darksvg2-btn");
-  // element11.classList.remove("lightsvg2-btn");
+  const element11 = document.getElementById("svg2btn");
+  element11.classList.add("darksvg2-btn");
+  element11.classList.remove("lightsvg2-btn");
   // svg3-btn;
   const element12 = document.getElementById("svg3btn");
   element12.classList.add("darksvg3-btn");
@@ -277,17 +277,17 @@ if (mode == "light") {
   element8.classList.add("lighttextcol3-btn");
   element8.classList.remove("darktextcol3-btn");
   //textcol4;
-  // const element9 = document.getElementById("textcol4");
-  // element9.classList.add("lighttextcol4-btn");
-  // element9.classList.remove("darktextcol4-btn");
+  const element9 = document.getElementById("textcol4");
+  element9.classList.add("lighttextcol4-btn");
+  element9.classList.remove("darktextcol4-btn");
   // svg1-btn;
   const element10 = document.getElementById("svg1btn");
   element10.classList.add("lightsvg1-btn");
   element10.classList.remove("darksvg1-btn");
   // svg2-btn;
-  // const element11 = document.getElementById("svg2btn");
-  // element11.classList.add("lightsvg2-btn");
-  // element11.classList.remove("darksvg2-btn");
+  const element11 = document.getElementById("svg2btn");
+  element11.classList.add("lightsvg2-btn");
+  element11.classList.remove("darksvg2-btn");
   // svg3-btn;
   const element12 = document.getElementById("svg3btn");
   element12.classList.add("lightsvg3-btn");
