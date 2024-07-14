@@ -655,8 +655,8 @@ video {
   width: 210px;
 }
 
-.w-\[27\%\] {
-  width: 27%;
+.w-\[30\%\] {
+  width: 30%;
 }
 
 .w-\[58\%\] {
@@ -665,10 +665,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-\[30\%\] {
-  width: 30%;
 }
 
 .grow {
@@ -725,6 +721,14 @@ video {
 
 .gap-\[155px\] {
   gap: 155px;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.gap-3 {
+  gap: 0.75rem;
 }
 
 .rounded-full {
@@ -828,6 +832,18 @@ video {
 
 .leading-5 {
   line-height: 1.25rem;
+}
+
+.leading-3 {
+  line-height: .75rem;
+}
+
+.tracking-tight {
+  letter-spacing: -0.025em;
+}
+
+.tracking-normal {
+  letter-spacing: 0em;
 }
 
 .text-\[\#4D6503\] {
@@ -1223,6 +1239,10 @@ body {
     margin-top: 360px;
   }
 
+  .vs\:mt-\[-55px\] {
+    margin-top: -55px;
+  }
+
   .vs\:gap-\[164px\] {
     gap: 164px;
   }
@@ -1247,6 +1267,14 @@ body {
 
   .ss\:mt-\[410px\] {
     margin-top: 410px;
+  }
+
+  .ss\:mt-\[-70px\] {
+    margin-top: -70px;
+  }
+
+  .ss\:mt-\[-74px\] {
+    margin-top: -74px;
   }
 
   .ss\:h-\[470px\] {
@@ -1322,6 +1350,10 @@ body {
     margin-top: 455px;
   }
 
+  .xs\:mt-\[-74px\] {
+    margin-top: -74px;
+  }
+
   .xs\:h-8 {
     height: 2rem;
   }
@@ -1387,6 +1419,14 @@ body {
 
   .sm\:mt-\[195px\] {
     margin-top: 195px;
+  }
+
+  .sm\:mt-14 {
+    margin-top: 3.5rem;
+  }
+
+  .sm\:mt-\[200px\] {
+    margin-top: 200px;
   }
 
   .sm\:block {
