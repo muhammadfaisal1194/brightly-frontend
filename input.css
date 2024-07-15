@@ -27,15 +27,6 @@ body {
 }
 
 @font-face {
-  font-family: "ClashGrotesk-Semibold";
-  src: url("./fonts/ClashGrotesk-Semibold.woff2") format("woff2"),
-    url("./fonts/ClashGrotesk-Semibold.woff") format("woff"),
-    url("./fonts/ClashGrotesk-Semibold.ttf") format("truetype");
-  font-weight: 600;
-  font-display: swap;
-  font-style: normal;
-}
-@font-face {
   font-family: "ClashGrotesk-Medium";
   src: url("./fonts/ClashGrotesk-Medium.woff2") format("woff2"),
     url("./fonts/ClashGrotesk-Medium.woff") format("woff"),
@@ -46,14 +37,14 @@ body {
 }
 
 @font-face {
-  font-family: "LightLC";
-  src: url("./Thunder-LightLC.ttf");
+  font-family: "ThunderLC";
+  src: url("./Thunder-LC.ttf");
 }
 .main-text {
   font-family: "Thunder";
 }
 .main-text2 {
-  font-family: "LightLC";
+  font-family: "ThunderLC";
 }
 .texttop,
 .text1,
@@ -64,7 +55,7 @@ body {
 .text2,
 .text3,
 .textcol {
-  font-family: "ClashGrotesk-Semibold";
+  font-family: "ClashGrotesk-Medium";
 }
 
 .switch {
