@@ -675,6 +675,10 @@ video {
   width: 100%;
 }
 
+.w-\[215px\] {
+  width: 215px;
+}
+
 .grow {
   flex-grow: 1;
 }
@@ -709,6 +713,10 @@ video {
 
 .justify-between {
   justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
 }
 
 .justify-items-start {
@@ -781,6 +789,11 @@ video {
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.px-1 {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
 }
 
 .pl-2 {
@@ -1251,16 +1264,16 @@ body {
     margin: 0.5rem;
   }
 
+  .ss\:mt-10 {
+    margin-top: 2.5rem;
+  }
+
   .ss\:mt-\[-70px\] {
     margin-top: -70px;
   }
 
   .ss\:mt-\[410px\] {
     margin-top: 410px;
-  }
-
-  .ss\:mt-10 {
-    margin-top: 2.5rem;
   }
 
   .ss\:h-\[470px\] {
@@ -1297,6 +1310,10 @@ body {
 
   .ss\:w-full {
     width: 100%;
+  }
+
+  .ss\:w-\[245px\] {
+    width: 245px;
   }
 
   .ss\:gap-10 {
@@ -1352,20 +1369,16 @@ body {
     margin-top: 5rem;
   }
 
+  .xs\:mt-8 {
+    margin-top: 2rem;
+  }
+
   .xs\:mt-\[-74px\] {
     margin-top: -74px;
   }
 
   .xs\:mt-\[455px\] {
     margin-top: 455px;
-  }
-
-  .xs\:mt-12 {
-    margin-top: 3rem;
-  }
-
-  .xs\:mt-8 {
-    margin-top: 2rem;
   }
 
   .xs\:h-8 {
@@ -1400,6 +1413,10 @@ body {
     width: 98%;
   }
 
+  .xs\:w-\[225px\] {
+    width: 225px;
+  }
+
   .xs\:gap-20 {
     gap: 5rem;
   }
@@ -1415,11 +1432,6 @@ body {
   .xs\:py-8 {
     padding-top: 2rem;
     padding-bottom: 2rem;
-  }
-
-  .xs\:py-4 {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
   }
 
   .xs\:text-\[14px\] {
