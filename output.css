@@ -562,6 +562,10 @@ video {
   position: relative;
 }
 
+.bottom-0 {
+  bottom: 0px;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -621,10 +625,6 @@ video {
 
 .h-\[395px\] {
   height: 395px;
-}
-
-.w-10 {
-  width: 2.5rem;
 }
 
 .w-11 {
@@ -1164,7 +1164,7 @@ body {
 }
 
 .lightsvg3-btn {
-  @media (min-width: 640px) {
+  @media (min-width: 768px) {
     display: block;
   }
 }
@@ -1178,24 +1178,10 @@ body {
 }
 
 .darksvg4-btn {
-  @media (min-width: 640px) {
+  @media (min-width: 768px) {
     display: block;
   }
 }
-
-/* .lightlogo2-btn {
-  display: block;
-}
-.darklogo2-btn {
-  display: none;
-}
-
-.lightlogo-btn {
-  display: none;
-}
-.darklogo-btn {
-  display: block;
-} */
 
 .placeholder\:text-xs::-moz-placeholder {
   font-size: 0.75rem;
@@ -1440,16 +1426,8 @@ body {
     margin-top: 200px;
   }
 
-  .sm\:block {
-    display: block;
-  }
-
   .sm\:flex {
     display: flex;
-  }
-
-  .sm\:hidden {
-    display: none;
   }
 
   .sm\:h-\[235px\] {
@@ -1594,8 +1572,8 @@ body {
     margin-top: 225px;
   }
 
-  .md\:block {
-    display: block;
+  .md\:hidden {
+    display: none;
   }
 
   .md\:h-\[270px\] {
@@ -1735,10 +1713,6 @@ body {
     margin-top: 305px;
   }
 
-  .lg\:block {
-    display: block;
-  }
-
   .lg\:flex {
     display: flex;
   }
@@ -1776,10 +1750,6 @@ body {
 
   .xl\:mt-\[392px\] {
     margin-top: 392px;
-  }
-
-  .xl\:block {
-    display: block;
   }
 
   .xl\:w-10 {
@@ -1832,10 +1802,6 @@ body {
     margin-top: 465px;
   }
 
-  .\31xl\:block {
-    display: block;
-  }
-
   .\31xl\:w-40 {
     width: 10rem;
   }
@@ -1865,81 +1831,20 @@ body {
 }
 
 @media (min-width: 1536px) {
-  .\32xl\:mt-\[-85px\] {
-    margin-top: -85px;
-  }
-
-  .\32xl\:mt-\[190px\] {
-    margin-top: 190px;
-  }
-
-  .\32xl\:mt-\[320px\] {
-    margin-top: 320px;
-  }
-
   .\32xl\:mt-\[-185px\] {
     margin-top: -185px;
-  }
-
-  .\32xl\:mt-\[900px\] {
-    margin-top: 900px;
-  }
-
-  .\32xl\:mt-\[850px\] {
-    margin-top: 850px;
-  }
-
-  .\32xl\:mt-\[690px\] {
-    margin-top: 690px;
-  }
-
-  .\32xl\:mt-\[750px\] {
-    margin-top: 750px;
-  }
-
-  .\32xl\:mt-\[800px\] {
-    margin-top: 800px;
   }
 
   .\32xl\:mt-\[820px\] {
     margin-top: 820px;
   }
 
-  .\32xl\:block {
-    display: block;
-  }
-
-  .\32xl\:w-fit {
-    width: -moz-fit-content;
-    width: fit-content;
-  }
-
-  .\32xl\:text-\[350px\] {
-    font-size: 350px;
+  .\32xl\:mt-\[850px\] {
+    margin-top: 850px;
   }
 
   .\32xl\:text-\[900px\] {
     font-size: 900px;
-  }
-
-  .\32xl\:placeholder\:text-2xl::-moz-placeholder {
-    font-size: 1.5rem;
-    line-height: 2rem;
-  }
-
-  .\32xl\:placeholder\:text-2xl::placeholder {
-    font-size: 1.5rem;
-    line-height: 2rem;
-  }
-
-  .\32xl\:placeholder\:text-4xl::-moz-placeholder {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
-  }
-
-  .\32xl\:placeholder\:text-4xl::placeholder {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
   }
 
   .\32xl\:placeholder\:text-3xl::-moz-placeholder {
@@ -1954,32 +1859,12 @@ body {
 }
 
 @media (min-width: 2560px) {
-  .\33xl\:h-40 {
-    height: 10rem;
-  }
-
   .\33xl\:h-12 {
     height: 3rem;
   }
 
-  .\33xl\:h-20 {
-    height: 5rem;
-  }
-
   .\33xl\:h-16 {
     height: 4rem;
-  }
-
-  .\33xl\:w-40 {
-    width: 10rem;
-  }
-
-  .\33xl\:w-60 {
-    width: 15rem;
-  }
-
-  .\33xl\:w-28 {
-    width: 7rem;
   }
 
   .\33xl\:w-24 {
@@ -1990,62 +1875,24 @@ body {
     width: 16rem;
   }
 
-  .\33xl\:w-\[100\%\] {
-    width: 100%;
-  }
-
-  .\33xl\:w-\[100px\] {
-    width: 100px;
-  }
-
-  .\33xl\:w-\[200px\] {
-    width: 200px;
-  }
-
-  .\33xl\:w-full {
-    width: 100%;
-  }
-
-  .\33xl\:w-\[20\%\] {
-    width: 20%;
+  .\33xl\:w-\[35\%\] {
+    width: 35%;
   }
 
   .\33xl\:w-\[40\%\] {
     width: 40%;
   }
 
-  .\33xl\:w-\[30\%\] {
-    width: 30%;
-  }
-
-  .\33xl\:w-\[35\%\] {
-    width: 35%;
-  }
-
-  .\33xl\:p-3 {
-    padding: 0.75rem;
-  }
-
-  .\33xl\:p-8 {
-    padding: 2rem;
-  }
-
-  .\33xl\:p-2 {
-    padding: 0.5rem;
+  .\33xl\:w-full {
+    width: 100%;
   }
 
   .\33xl\:p-6 {
     padding: 1.5rem;
   }
 
-  .\33xl\:text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
-
-  .\33xl\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
+  .\33xl\:p-8 {
+    padding: 2rem;
   }
 
   .\33xl\:text-3xl {
@@ -2053,19 +1900,14 @@ body {
     line-height: 2.25rem;
   }
 
-  .\33xl\:text-6xl {
-    font-size: 3.75rem;
-    line-height: 1;
+  .\33xl\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 
   .\33xl\:text-5xl {
     font-size: 3rem;
     line-height: 1;
-  }
-
-  .\33xl\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
   }
 }
 
