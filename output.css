@@ -679,6 +679,10 @@ video {
   width: 100%;
 }
 
+.w-\[60\%\] {
+  width: 60%;
+}
+
 .transform {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
@@ -1340,6 +1344,10 @@ body {
     width: 100%;
   }
 
+  .ss\:w-\[60\%\] {
+    width: 60%;
+  }
+
   .ss\:gap-10 {
     gap: 2.5rem;
   }
@@ -1435,6 +1443,10 @@ body {
 
   .xs\:w-\[98\%\] {
     width: 98%;
+  }
+
+  .xs\:w-\[50\%\] {
+    width: 50%;
   }
 
   .xs\:gap-20 {
@@ -2044,10 +2056,6 @@ body {
 
   .\33xl\:p-8 {
     padding: 2rem;
-  }
-
-  .\33xl\:p-6 {
-    padding: 1.5rem;
   }
 
   .\33xl\:text-3xl {
