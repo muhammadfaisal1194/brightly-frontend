@@ -671,10 +671,6 @@ video {
   width: 100%;
 }
 
-.transform {
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
 .cursor-pointer {
   cursor: pointer;
 }
@@ -1164,9 +1160,7 @@ body {
 }
 
 .lightsvg3-btn {
-  @media (min-width: 768px) {
-    display: block;
-  }
+  display: block;
 }
 
 .darksvg3-btn {
@@ -1178,9 +1172,7 @@ body {
 }
 
 .darksvg4-btn {
-  @media (min-width: 768px) {
-    display: block;
-  }
+  display: block;
 }
 
 .placeholder\:text-xs::-moz-placeholder {
@@ -1430,6 +1422,10 @@ body {
     display: flex;
   }
 
+  .sm\:hidden {
+    display: none;
+  }
+
   .sm\:h-\[235px\] {
     height: 235px;
   }
@@ -1572,6 +1568,10 @@ body {
     margin-top: 225px;
   }
 
+  .md\:block {
+    display: block;
+  }
+
   .md\:hidden {
     display: none;
   }
@@ -1586,6 +1586,10 @@ body {
 
   .md\:w-14 {
     width: 3.5rem;
+  }
+
+  .md\:w-16 {
+    width: 4rem;
   }
 
   .md\:w-20 {
@@ -1760,10 +1764,6 @@ body {
     width: 5rem;
   }
 
-  .xl\:w-24 {
-    width: 6rem;
-  }
-
   .xl\:w-28 {
     width: 7rem;
   }
@@ -1859,20 +1859,12 @@ body {
 }
 
 @media (min-width: 2560px) {
-  .\33xl\:h-12 {
-    height: 3rem;
-  }
-
   .\33xl\:h-16 {
     height: 4rem;
   }
 
   .\33xl\:w-24 {
     width: 6rem;
-  }
-
-  .\33xl\:w-64 {
-    width: 16rem;
   }
 
   .\33xl\:w-\[35\%\] {
