@@ -107,6 +107,12 @@ body {
   z-index: 1;
   width: 24px;
   height: 24px;
+  @media (min-width: 1536px) {
+    width: 45px;
+    height: 45px;
+    padding: 8px;
+    left: 3px;
+  }
 }
 
 .moon svg {
@@ -119,6 +125,12 @@ body {
   z-index: 1;
   width: 24px;
   height: 24px;
+  @media (min-width: 1536px) {
+    width: 45px;
+    height: 45px;
+    padding: 8px;
+    left: 58px;
+  }
 }
 
 /* .switch:hover */
@@ -170,23 +182,6 @@ body {
 .input:checked + .slider:before {
   transform: translateX(30px);
   background-color: #d1f26a;
-}
-
-.lightsvg3-btn {
-  @media (min-width: 630px) and (max-width: 2755px) {
-    display: block;
-  }
-}
-.darksvg3-btn {
-  display: none;
-}
-.lightsvg4-btn {
-  display: none;
-}
-.darksvg4-btn {
-  @media (min-width: 630px) and (max-width: 2755px) {
-    display: block;
-  }
 }
 
 .light-btn {
@@ -271,4 +266,46 @@ body {
 }
 .darksvg2-btn {
   display: block;
+}
+
+.lightsvg3-btn {
+  @media (min-width: 630px) and (max-width: 2755px) {
+    display: block;
+  }
+}
+.darksvg3-btn {
+  display: none;
+}
+.lightsvg4-btn {
+  display: none;
+}
+.darksvg4-btn {
+  @media (min-width: 630px) and (max-width: 2755px) {
+    display: block;
+  }
+}
+
+.lightsvg5-btn {
+  @media (min-width: 1536px) {
+    background-color: #ffd405;
+    border-radius: 100px;
+  }
+}
+.darksvg5-btn {
+  @media (min-width: 1536px) {
+    background-color: #5f5f5f;
+    border-radius: 100px;
+  }
+}
+.lightsvg6-btn {
+  @media (min-width: 1536px) {
+    background-color: #ffffff;
+    border-radius: 100px;
+  }
+}
+.darksvg6-btn {
+  @media (min-width: 1536px) {
+    background-color: #d1f26a;
+    border-radius: 100px;
+  }
 }

@@ -62,6 +62,15 @@ modeBtn.onchange = (e) => {
     const element13 = document.getElementById("svg4btn");
     element13.classList.add("darksvg4-btn");
     element13.classList.remove("lightsvg4-btn");
+
+    // switcher;
+    const element14 = document.getElementById("svg5btn");
+    element14.classList.add("darksvg5-btn");
+    element14.classList.remove("lightsvg5-btn");
+    // switcher;
+    const element15 = document.getElementById("svg6btn");
+    element15.classList.add("darksvg6-btn");
+    element15.classList.remove("lightsvg6-btn");
   } else {
     document.documentElement.classList.remove("dark");
     document.documentElement.classList.add("light");
@@ -136,6 +145,15 @@ modeBtn.onchange = (e) => {
     const element13 = document.getElementById("svg4btn");
     element13.classList.add("lightsvg4-btn");
     element13.classList.remove("darksvg4-btn");
+
+    // switcher
+    const element14 = document.getElementById("svg5btn");
+    element14.classList.add("lightsvg5-btn");
+    element14.classList.remove("darksvg5-btn");
+    // switcher;
+    const element15 = document.getElementById("svg6btn");
+    element15.classList.add("lightsvg6-btn");
+    element15.classList.remove("darksvg6-btn");
   }
 };
 
@@ -201,6 +219,15 @@ if (mode == "dark") {
   const element13 = document.getElementById("svg4btn");
   element13.classList.add("darksvg4-btn");
   element13.classList.remove("lightsvg4-btn");
+
+  // switcher;
+  const element14 = document.getElementById("svg5btn");
+  element14.classList.add("darksvg5-btn");
+  element14.classList.remove("lightsvg5-btn");
+  // switcher;
+  const element15 = document.getElementById("svg6btn");
+  element15.classList.add("darksvg6-btn");
+  element15.classList.remove("lightsvg6-btn");
 }
 
 if (mode == "light") {
@@ -264,4 +291,13 @@ if (mode == "light") {
   const element13 = document.getElementById("svg4btn");
   element13.classList.add("lightsvg4-btn");
   element13.classList.remove("darksvg4-btn");
+
+  // switcher
+  const element14 = document.getElementById("svg5btn");
+  element14.classList.add("lightsvg5-btn");
+  element14.classList.remove("darksvg5-btn");
+  // switcher;
+  const element15 = document.getElementById("svg6btn");
+  element15.classList.add("lightsvg6-btn");
+  element15.classList.remove("darksvg6-btn");
 }

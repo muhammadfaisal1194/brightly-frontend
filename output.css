@@ -619,6 +619,10 @@ video {
   height: 0px;
 }
 
+.h-16 {
+  height: 4rem;
+}
+
 .h-8 {
   height: 2rem;
 }
@@ -629,6 +633,10 @@ video {
 
 .w-11 {
   width: 2.75rem;
+}
+
+.w-12 {
+  width: 3rem;
 }
 
 .w-16 {
@@ -669,6 +677,10 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.transform {
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .cursor-pointer {
@@ -986,6 +998,15 @@ body {
   z-index: 1;
   width: 24px;
   height: 24px;
+  @media (min-width: 1536px) {
+    width: 45px;
+
+    height: 45px;
+
+    padding: 8px;
+
+    left: 3px;
+  }
 }
 
 .moon svg {
@@ -998,6 +1019,15 @@ body {
   z-index: 1;
   width: 24px;
   height: 24px;
+  @media (min-width: 1536px) {
+    width: 45px;
+
+    height: 45px;
+
+    padding: 8px;
+
+    left: 58px;
+  }
 }
 
 /* .switch:hover */
@@ -1051,26 +1081,6 @@ body {
 .input:checked + .slider:before {
   transform: translateX(30px);
   background-color: #d1f26a;
-}
-
-.lightsvg3-btn {
-  @media (min-width: 630px) and (max-width: 2755px) {
-    display: block;
-  }
-}
-
-.darksvg3-btn {
-  display: none;
-}
-
-.lightsvg4-btn {
-  display: none;
-}
-
-.darksvg4-btn {
-  @media (min-width: 630px) and (max-width: 2755px) {
-    display: block;
-  }
 }
 
 .light-btn {
@@ -1177,6 +1187,58 @@ body {
 
 .darksvg2-btn {
   display: block;
+}
+
+.lightsvg3-btn {
+  @media (min-width: 630px) and (max-width: 2755px) {
+    display: block;
+  }
+}
+
+.darksvg3-btn {
+  display: none;
+}
+
+.lightsvg4-btn {
+  display: none;
+}
+
+.darksvg4-btn {
+  @media (min-width: 630px) and (max-width: 2755px) {
+    display: block;
+  }
+}
+
+.lightsvg5-btn {
+  @media (min-width: 1536px) {
+    background-color: #ffd405;
+
+    border-radius: 100px;
+  }
+}
+
+.darksvg5-btn {
+  @media (min-width: 1536px) {
+    background-color: #5f5f5f;
+
+    border-radius: 100px;
+  }
+}
+
+.lightsvg6-btn {
+  @media (min-width: 1536px) {
+    background-color: #ffffff;
+
+    border-radius: 100px;
+  }
+}
+
+.darksvg6-btn {
+  @media (min-width: 1536px) {
+    background-color: #d1f26a;
+
+    border-radius: 100px;
+  }
 }
 
 .placeholder\:text-xs::-moz-placeholder {
@@ -1827,16 +1889,121 @@ body {
 }
 
 @media (min-width: 1536px) {
-  .\32xl\:mt-\[-185px\] {
-    margin-top: -185px;
+  .\32xl\:mt-40 {
+    margin-top: 10rem;
+  }
+
+  .\32xl\:mt-8 {
+    margin-top: 2rem;
+  }
+
+  .\32xl\:mt-\[-200px\] {
+    margin-top: -200px;
   }
 
   .\32xl\:mt-\[820px\] {
     margin-top: 820px;
   }
 
-  .\32xl\:mt-\[850px\] {
-    margin-top: 850px;
+  .\32xl\:mt-\[840px\] {
+    margin-top: 840px;
+  }
+
+  .\32xl\:hidden {
+    display: none;
+  }
+
+  .\32xl\:h-12 {
+    height: 3rem;
+  }
+
+  .\32xl\:h-14 {
+    height: 3.5rem;
+  }
+
+  .\32xl\:h-16 {
+    height: 4rem;
+  }
+
+  .\32xl\:h-20 {
+    height: 5rem;
+  }
+
+  .\32xl\:h-40 {
+    height: 10rem;
+  }
+
+  .\32xl\:h-\[57px\] {
+    height: 57px;
+  }
+
+  .\32xl\:w-14 {
+    width: 3.5rem;
+  }
+
+  .\32xl\:w-16 {
+    width: 4rem;
+  }
+
+  .\32xl\:w-20 {
+    width: 5rem;
+  }
+
+  .\32xl\:w-24 {
+    width: 6rem;
+  }
+
+  .\32xl\:w-28 {
+    width: 7rem;
+  }
+
+  .\32xl\:w-32 {
+    width: 8rem;
+  }
+
+  .\32xl\:w-52 {
+    width: 13rem;
+  }
+
+  .\32xl\:w-60 {
+    width: 15rem;
+  }
+
+  .\32xl\:w-64 {
+    width: 16rem;
+  }
+
+  .\32xl\:w-\[110px\] {
+    width: 110px;
+  }
+
+  .\32xl\:w-\[45\%\] {
+    width: 45%;
+  }
+
+  .\32xl\:gap-14 {
+    gap: 3.5rem;
+  }
+
+  .\32xl\:gap-28 {
+    gap: 7rem;
+  }
+
+  .\32xl\:gap-32 {
+    gap: 8rem;
+  }
+
+  .\32xl\:rounded-full {
+    border-radius: 9999px;
+  }
+
+  .\32xl\:border {
+    border-width: 1px;
+  }
+
+  .\32xl\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 
   .\32xl\:text-\[900px\] {
@@ -1867,20 +2034,20 @@ body {
     width: 35%;
   }
 
-  .\33xl\:w-\[40\%\] {
-    width: 40%;
-  }
-
   .\33xl\:w-full {
     width: 100%;
   }
 
-  .\33xl\:p-6 {
-    padding: 1.5rem;
+  .\33xl\:p-4 {
+    padding: 1rem;
   }
 
   .\33xl\:p-8 {
     padding: 2rem;
+  }
+
+  .\33xl\:p-6 {
+    padding: 1.5rem;
   }
 
   .\33xl\:text-3xl {
