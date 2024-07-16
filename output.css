@@ -1053,6 +1053,26 @@ body {
   background-color: #d1f26a;
 }
 
+.lightsvg3-btn {
+  @media (min-width: 630px) {
+    display: block;
+  }
+}
+
+.darksvg3-btn {
+  display: none;
+}
+
+.lightsvg4-btn {
+  display: none;
+}
+
+.darksvg4-btn {
+  @media (min-width: 630px) {
+    display: block;
+  }
+}
+
 .light-btn {
   background-color: #d1f26a;
 }
@@ -1156,22 +1176,6 @@ body {
 }
 
 .darksvg2-btn {
-  display: block;
-}
-
-.lightsvg3-btn {
-  display: block;
-}
-
-.darksvg3-btn {
-  display: none;
-}
-
-.lightsvg4-btn {
-  display: none;
-}
-
-.darksvg4-btn {
   display: block;
 }
 
@@ -1566,14 +1570,6 @@ body {
 
   .md\:mt-\[225px\] {
     margin-top: 225px;
-  }
-
-  .md\:block {
-    display: block;
-  }
-
-  .md\:hidden {
-    display: none;
   }
 
   .md\:h-\[270px\] {
