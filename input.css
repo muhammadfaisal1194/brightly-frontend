@@ -40,7 +40,8 @@ body {
   font-family: "ThunderLC";
   src: url("./Thunder-LC.ttf");
 }
-.main-text {
+.main-text,
+.book {
   font-family: "Thunder";
 }
 .main-text2 {
@@ -48,12 +49,15 @@ body {
 }
 .texttop,
 .text1,
+.detail,
 .textbottom {
   font-family: "ClashGrotesk-Medium";
 }
 
 .text2,
 .text3,
+.text-1,
+.text-2,
 .textcol {
   font-family: "ClashGrotesk-Medium";
 }
