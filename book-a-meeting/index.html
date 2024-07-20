@@ -90,35 +90,44 @@
           <span class="slider 2xl:hidden" for="mode"></span>
         </label>
       </div>
-      <div class="lg:flex items-center justify-between mt-20 grid grid-cols-1">
+      <div
+        class="lg:flex items-center lg:gap-24 1xl:gap-0 justify-between mt-20 grid grid-cols-1"
+      >
         <div
-          class="lg:w-[40%] xl:w-[28%] items-center text-center lg:items-start lg:text-start shrink flex flex-col gap-6"
+          class="items-center 2xl:w-[40%] text-center lg:items-start lg:text-start shrink flex flex-col gap-6 2xl:gap-8"
         >
-          <h1 class="book text-5xl tracking-wide font-semibold uppercase">
+          <h1
+            class="book text-5xl 3xl:text-8xl 2xl:text-7xl tracking-wide font-semibold uppercase"
+          >
             Book a meeting
           </h1>
-          <p class="detail text-base">Hey! 👋</p>
-          <p class="detail text-base">
-            We like to make things super plug & play. Let’s grab some time to
-            jam.
-          </p>
+          <div class="flex flex-col gap-2">
+            <p class="detail text-base 2xl:text-3xl">Hey! 👋</p>
+            <p class="detail text-base 2xl:text-3xl">
+              We like to make things super plug & play. Let’s grab some time to
+              jam.
+            </p>
+          </div>
           <div class="flex items-center gap-4">
             <img
               src="./../images/default-profile-account-unknown-icon-black-silhouette-free-vector.jpg"
               alt=""
               class="w-14 h-14 rounded-full border"
             />
-            <div class="grid gap-1">
-              <h1 class="text-1 text-xl">Jack</h1>
-              <p class="text-2 text-sm">CEO at Brightly</p>
+            <div class="grid gap-1 2xl:gap-2">
+              <h1 class="text-1 text-xl 2xl:text-4xl">Jack</h1>
+              <p class="text-2 text-sm 2xl:text-2xl">CEO at Brightly</p>
             </div>
           </div>
         </div>
 
         <!-- calendly widget -->
-        <div id="calendly-widget" class="h-[600px] md:h-[700px] w-full">
+        <div
+          id="calendly-widget"
+          class="h-[600px] md:h-[700px] w-full 1xl:w-[60%] 2xl:w-[50%] 3xl:w-[38%]"
+        >
           <div
-            class="calendly-inline-widget grow p-0 mt-10 lg:mt-0 h-[600px] md:h-[700px]"
+            class="calendly-inline-widget w-fit p-0 mt-10 lg:mt-0 h-[600px] md:h-[700px]"
             data-url="https://calendly.com/mfm1194/booking-with-me?hide_event_type_details=1&hide_gdpr_banner=1"
           ></div>
         </div>
