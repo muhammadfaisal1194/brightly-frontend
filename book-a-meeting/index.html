@@ -3,14 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book a meeting - Brightly</title>
+    <meta
+      name="description"
+      content="A new media company for high-growth startups. Built by exited founders
+      who know how to drive growth. Let’s grow."
+    />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
     />
     <link rel="stylesheet" href="../output.css" />
-    <title>Calendly Integration</title>
   </head>
-  <body>
+  <body class="dark-mode">
     <!-- Calendly inline widget begin -->
     <div class="lg:mx-12 md:mx-8 mx-3 sm:p-4 p-2 pt-6 2xl:mt-8">
       <div class="flex justify-between items-center">
@@ -85,39 +90,38 @@
           <span class="slider 2xl:hidden" for="mode"></span>
         </label>
       </div>
-      <div
-        class="lg:flex items-center mt-20 grid grid-cols-1 xl:justify-center"
-      >
+      <div class="lg:flex items-center justify-between mt-20 grid grid-cols-1">
         <div
-          class="lg:w-[27%] xl:w-[28%] items-center text-center lg:items-start lg:text-start shrink flex flex-col gap-6"
+          class="lg:w-[40%] xl:w-[28%] items-center text-center lg:items-start lg:text-start shrink flex flex-col gap-6"
         >
-          <h1
-            class="book text-5xl text-[#2C2C2E] tracking-wide font-semibold uppercase"
-          >
+          <h1 class="book text-5xl tracking-wide font-semibold uppercase">
             Book a meeting
           </h1>
-          <p class="detail text-base text-[#2C2C2E]">
-            “Verbatim combines the benefits of a hardcore execution machine with
-            the benefits of a really talented creative agency. That’s extremely
-            rare. Critically, they own the process from start to finish. And
-            they always get it right.”
+          <p class="detail text-base">Hey! 👋</p>
+          <p class="detail text-base">
+            We like to make things super plug & play. Let’s grab some time to
+            jam.
           </p>
           <div class="flex items-center gap-4">
             <img
-              src="./images/istockphoto-1364917563-612x612.jpg"
+              src="./../images/default-profile-account-unknown-icon-black-silhouette-free-vector.jpg"
               alt=""
-              class="w-14 h-14 rounded-full"
+              class="w-14 h-14 rounded-full border"
             />
             <div class="grid gap-1">
-              <h1 class="text-1 text-xl text-[#2C2C2E]">Sasha Orloff</h1>
-              <p class="text-2 text-sm text-[#2C2C2E]">CEO at Puzzle</p>
+              <h1 class="text-1 text-xl">Jack</h1>
+              <p class="text-2 text-sm">CEO at Brightly</p>
             </div>
           </div>
         </div>
-        <div
-          class="calendly-inline-widget grow p-0 mt-10 min-w-80 h-[600px] md:h-[700px]"
-          data-url="https://calendly.com/mfm1194/booking-with-me?hide_event_type_details=1&hide_gdpr_banner=1"
-        ></div>
+
+        <!-- calendly widget -->
+        <div id="calendly-widget" class="h-[600px] md:h-[700px] w-full">
+          <div
+            class="calendly-inline-widget grow p-0 mt-10 lg:mt-0 h-[600px] md:h-[700px]"
+            data-url="https://calendly.com/mfm1194/booking-with-me?hide_event_type_details=1&hide_gdpr_banner=1"
+          ></div>
+        </div>
       </div>
       <div class="flex-1 w-full flex items-end">
         <div
@@ -138,13 +142,12 @@
         </div>
       </div>
     </div>
-    <script src="script.js"></script>
+    <script src="./../meeting-script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
     <script
       type="text/javascript"
       src="https://assets.calendly.com/assets/external/widget.js"
       async
     ></script>
-    <!-- Calendly inline widget end -->
   </body>
 </html>
