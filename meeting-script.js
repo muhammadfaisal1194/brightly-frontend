@@ -36,7 +36,7 @@ modeBtn.onchange = (e) => {
     window.localStorage.setItem("mode", "dark");
 
     //handle calendaly styles
-    const newUrl = `https://calendly.com/mfm1194/booking-with-me?background_color=1a1a1a&text_color=ffffff&hide_event_type_details=1&hide_gdpr_banner=1`;
+    const newUrl = `https://calendly.com/join-brightly/30min?background_color=1a1a1a&text_color=ffffff&hide_event_type_details=1&hide_gdpr_banner=1`;
     setCalendlyUrl(newUrl);
 
     // text-col-btn;
@@ -52,7 +52,7 @@ modeBtn.onchange = (e) => {
     document.documentElement.classList.add("light");
     window.localStorage.setItem("mode", "light");
 
-    const newUrl = `https://calendly.com/mfm1194/booking-with-me?hide_event_type_details=1&hide_gdpr_banner=1`;
+    const newUrl = `https://calendly.com/join-brightly/30min?hide_event_type_details=1&hide_gdpr_banner=1`;
     setCalendlyUrl(newUrl);
 
     const element4 = document.getElementById("textcol");
@@ -72,7 +72,7 @@ if (mode == "dark") {
   document.documentElement.classList.remove("light");
   document.documentElement.classList.add("dark");
 
-  const newUrl = `https://calendly.com/mfm1194/booking-with-me?background_color=1a1a1a&text_color=ffffff&hide_event_type_details=1&hide_gdpr_banner=1`;
+  const newUrl = `https://calendly.com/join-brightly/30min?background_color=1a1a1a&text_color=ffffff&hide_event_type_details=1&hide_gdpr_banner=1`;
   setCalendlyUrl(newUrl);
 
   const element4 = document.getElementById("textcol");
@@ -89,7 +89,7 @@ if (mode == "light") {
   document.documentElement.classList.remove("dark");
   document.documentElement.classList.add("light");
 
-  const newUrl = `https://calendly.com/mfm1194/booking-with-me?hide_event_type_details=1&hide_gdpr_banner=1`;
+  const newUrl = `https://calendly.com/join-brightly/30min?hide_event_type_details=1&hide_gdpr_banner=1`;
   setCalendlyUrl(newUrl);
 
   const element4 = document.getElementById("textcol");
