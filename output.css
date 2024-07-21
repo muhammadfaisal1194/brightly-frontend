@@ -708,10 +708,6 @@ video {
   width: 100%;
 }
 
-.w-\[20\%\] {
-  width: 20%;
-}
-
 .flex-1 {
   flex: 1 1 0%;
 }
@@ -768,10 +764,6 @@ video {
   justify-items: start;
 }
 
-.gap-1 {
-  gap: 0.25rem;
-}
-
 .gap-10 {
   gap: 2.5rem;
 }
@@ -796,8 +788,16 @@ video {
   gap: 155px;
 }
 
-.gap-2 {
-  gap: 0.5rem;
+.gap-\[200px\] {
+  gap: 200px;
+}
+
+.gap-\[2px\] {
+  gap: 2px;
+}
+
+.gap-\[1px\] {
+  gap: 1px;
 }
 
 .rounded-full {
@@ -900,21 +900,6 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
 }
 
 .font-normal {
@@ -1877,11 +1862,6 @@ body {
     display: flex;
   }
 
-  .lg\:w-fit {
-    width: -moz-fit-content;
-    width: fit-content;
-  }
-
   .lg\:items-start {
     align-items: flex-start;
   }
@@ -1983,25 +1963,8 @@ body {
     width: 350px;
   }
 
-  .\31xl\:w-fit {
-    width: -moz-fit-content;
-    width: fit-content;
-  }
-
   .\31xl\:w-\[60\%\] {
     width: 60%;
-  }
-
-  .\31xl\:w-\[20\%\] {
-    width: 20%;
-  }
-
-  .\31xl\:justify-center {
-    justify-content: center;
-  }
-
-  .\31xl\:gap-80 {
-    gap: 20rem;
   }
 
   .\31xl\:gap-0 {
@@ -2109,19 +2072,6 @@ body {
     width: 35%;
   }
 
-  .\32xl\:w-full {
-    width: 100%;
-  }
-
-  .\32xl\:w-\[38\%\] {
-    width: 38%;
-  }
-
-  .\32xl\:w-fit {
-    width: -moz-fit-content;
-    width: fit-content;
-  }
-
   .\32xl\:w-\[40\%\] {
     width: 40%;
   }
@@ -2134,24 +2084,16 @@ body {
     gap: 4rem;
   }
 
-  .\32xl\:gap-5 {
-    gap: 1.25rem;
-  }
-
-  .\32xl\:gap-3 {
-    gap: 0.75rem;
-  }
-
   .\32xl\:gap-2 {
     gap: 0.5rem;
   }
 
-  .\32xl\:gap-8 {
-    gap: 2rem;
+  .\32xl\:gap-5 {
+    gap: 1.25rem;
   }
 
-  .\32xl\:gap-6 {
-    gap: 1.5rem;
+  .\32xl\:gap-8 {
+    gap: 2rem;
   }
 
   .\32xl\:rounded-full {
@@ -2167,9 +2109,24 @@ body {
     padding-bottom: 0.75rem;
   }
 
+  .\32xl\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
   .\32xl\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
+  }
+
+  .\32xl\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .\32xl\:text-7xl {
+    font-size: 4.5rem;
+    line-height: 1;
   }
 
   .\32xl\:text-\[525px\] {
@@ -2184,31 +2141,6 @@ body {
   .\32xl\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
-  }
-
-  .\32xl\:text-8xl {
-    font-size: 6rem;
-    line-height: 1;
-  }
-
-  .\32xl\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
-  }
-
-  .\32xl\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
-  }
-
-  .\32xl\:text-6xl {
-    font-size: 3.75rem;
-    line-height: 1;
-  }
-
-  .\32xl\:text-7xl {
-    font-size: 4.5rem;
-    line-height: 1;
   }
 
   .\32xl\:placeholder\:text-xl::-moz-placeholder {
@@ -2299,16 +2231,16 @@ body {
     width: 35%;
   }
 
+  .\33xl\:w-\[38\%\] {
+    width: 38%;
+  }
+
   .\33xl\:w-\[45\%\] {
     width: 45%;
   }
 
   .\33xl\:w-full {
     width: 100%;
-  }
-
-  .\33xl\:w-\[38\%\] {
-    width: 38%;
   }
 
   .\33xl\:gap-14 {
@@ -2346,13 +2278,13 @@ body {
     line-height: 1;
   }
 
-  .\33xl\:text-\[900px\] {
-    font-size: 900px;
-  }
-
   .\33xl\:text-8xl {
     font-size: 6rem;
     line-height: 1;
+  }
+
+  .\33xl\:text-\[900px\] {
+    font-size: 900px;
   }
 
   .\33xl\:placeholder\:text-3xl::-moz-placeholder {

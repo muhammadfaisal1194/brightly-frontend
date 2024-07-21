@@ -9,7 +9,7 @@
       content="A new media company for high-growth startups. Built by exited founders
       who know how to drive growth. Let’s grow."
     />
-
+    <link rel="icon" type="image/jpeg" href="../images/favicon.jpeg" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
@@ -468,10 +468,10 @@
           .then((response) => response.json())
           .then((response) => {
             if (!response.success) {
-              showToast("You have successfully subscribed!", "#FFD405");
+              // showToast("You have successfully subscribed!", "#FFD405");
               window.location.href = "https://brightly.team/book-a-meeting";
             } else {
-              showToast("You have successfully subscribed!", "#FFD405");
+              // showToast("You have successfully subscribed!", "#FFD405");
               window.location.href = "https://brightly.team/book-a-meeting";
             }
             return;
