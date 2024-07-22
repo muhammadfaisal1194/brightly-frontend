@@ -788,18 +788,6 @@ video {
   gap: 155px;
 }
 
-.gap-\[200px\] {
-  gap: 200px;
-}
-
-.gap-\[2px\] {
-  gap: 2px;
-}
-
-.gap-\[1px\] {
-  gap: 1px;
-}
-
 .rounded-full {
   border-radius: 9999px;
 }
@@ -978,11 +966,10 @@ body {
   background-color: var(--card-bg-color) !important;
 }
 
-@font-face {
+/* @font-face {
   font-family: "Thunder";
-
   src: url("./Thunder-ExtraBoldLC.ttf");
-}
+} */
 
 @font-face {
   font-family: "ClashGrotesk-Medium";
@@ -1004,10 +991,10 @@ body {
   src: url("./Thunder-LC.ttf");
 }
 
-.main-text,
+/* .main-text,
 .book {
   font-family: "Thunder";
-}
+} */
 
 .main-text2 {
   font-family: "ThunderLC";

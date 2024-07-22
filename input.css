@@ -21,10 +21,10 @@ body {
 .card {
   background-color: var(--card-bg-color) !important;
 }
-@font-face {
+/* @font-face {
   font-family: "Thunder";
   src: url("./Thunder-ExtraBoldLC.ttf");
-}
+} */
 
 @font-face {
   font-family: "ClashGrotesk-Medium";
@@ -40,10 +40,10 @@ body {
   font-family: "ThunderLC";
   src: url("./Thunder-LC.ttf");
 }
-.main-text,
+/* .main-text,
 .book {
   font-family: "Thunder";
-}
+} */
 .main-text2 {
   font-family: "ThunderLC";
 }
